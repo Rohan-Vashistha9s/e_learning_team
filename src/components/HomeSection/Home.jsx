@@ -43,10 +43,10 @@ const Home = () => {
                     <nav className="space-x-4">
                         <ul className="flex space-x-12 text-white cursor-pointer">
                             <Link to="/">Home</Link>
-                            <Link to="/">Courses</Link>
+                            <Link to="/courses">Courses</Link>
                             <Link to="/members" >Membership</Link>
-                            <Link to="/">Blog</Link>
-                            <Link to="/">Literature</Link>
+                            <Link to="/blog">Blog</Link>
+                            <Link to="/literature">Literature</Link>
                             <li className="relative">
                                 <button
                                     className="btn bg-transparent text-white border-none text-[14px] flex items-center"
